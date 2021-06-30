@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_netflix/screen/home_screen.dart';
 import 'package:flutter_netflix/widget/bottom_bar.dart';
 
 void main() {
@@ -26,8 +27,8 @@ class _MyAppState extends State<MyApp> {
         child: Scaffold(
           body: TabBarView(
             //physics: NeverScrollableScrollPhysics(),
-            children: [ 
-              Container(),
+            children: [
+              HomeScreen(),
               Container(),
               Container(),
               Container(),
